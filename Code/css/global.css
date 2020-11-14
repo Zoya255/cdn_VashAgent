@@ -50,7 +50,7 @@
 	margin: 0px auto;
 
 	font-size: 1.6em;
-	font-family: Roboto;
+	font-family: "Myriad Pro";
 	font-weight: 400;
 }
 .global__nav-link{
@@ -86,7 +86,7 @@
 	border-bottom: 1px solid #000000;
 }
 
-/* -------------------- sections -------------------- */
+/* -------------------- section main -------------------- */
 
 .global__section-main{
 	display: grid;
@@ -107,6 +107,8 @@
 .global__section-main-panel-text{
 	grid-area: panel_text;
 
+	font-family: Cambria;
+
 	color: #ffffff;
 }
 .global__section-main-panel-text-rieltor{
@@ -123,8 +125,121 @@
 	background-image: url(../img/main.png);
 }
 
-/* -------------------- sections -------------------- */
+/* -------------------- section about -------------------- */
+
+
+
+/* -------------------- section achievements -------------------- */
+
+.global__section-achievements{
+	background-image: url(../img/achievements.png);
+}
+.global__section-achievements-block-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+
+	margin: 0px auto;
+
+	width: 65vw;
+	height: 100%;
+}
+.global__section-achievements-block{
+	margin: 10px 0px;
+
+	width: 23%;
+
+	font-family: "Myriad Pro";
+	font-weight: 500;
+
+	border: 1px solid #ffffff;
+}
+.global__section-achievements-block:hover{
+	background-color: #6fb8be;
+	border: 1px solid #6fb8be;
+}
+.global__section-achievements-block:last-child{
+	margin-left: 2.5%;
+	margin-right: auto;
+}
+.global__section-achievements-block-title{
+	margin: 5px 5px 20px 20px;
+
+	font-size: 1.7em;
+}
+.global__section-achievements-block-text{
+	margin: 10px 5px 60px 20px;
+
+	font-size: 0.8em;
+}
+
+/* -------------------- colors -------------------- */
 
 .color__yellow{
 	color: #d0e014;
+}
+
+/* -------------------- fixed -------------------- */
+
+.fixed__block{
+	position: fixed;
+	display: grid;
+
+	grid-template-areas: "fb_top"
+						 "fb_list"
+						 "fb_bottom";
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 8fr 1fr;
+
+	top: calc(50vh - 175px);
+	right: 50px;
+
+	width: 35px;
+	height: 350px;
+
+	border-radius: 10px;
+
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.fixed__block-list{
+	grid-area: fb_list;
+
+	padding: 0px;
+	margin: auto 0px;
+
+	list-style: none;
+}
+.fixed__block-list-item{
+	text-align: center;
+}
+.fixed__block-list-link{
+	display: block;
+
+	width: 100%;
+
+	font-size: 2.2em;
+	text-decoration: none;
+
+	color: #000000;
+}
+.fixed__block-list-link:hover{
+	color: #cee002;
+}
+.fixed__block-button{
+	display: block;
+
+	width: 100%;
+	margin-left: 2px;
+
+	transform: rotate(90deg);
+	text-align: center;
+
+	font-size: 2.2em;
+	text-decoration: none;
+
+	color: #000000;
+}
+.fixed__block-button:hover{
+	color: #cee002;
 }
