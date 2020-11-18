@@ -284,6 +284,41 @@
 
 	background-color: #0e606e;
 }
+.global__section-feedback-title{
+	font-family: Montserrat;
+	font-size: 3em;
+	font-weight: 700;
+
+	color: #ffffff;
+}
+.global__section-feedback-text{
+	font-family: Montserrat;
+	font-size: 1.875em;
+	font-weight: 700;
+
+	color: #ffffff;
+}
+.global__section-feedback-form-input{
+	display: block;
+
+	margin: 40px 0px;
+
+	font-family: Montserrat;
+	font-size: 1.5em;
+	font-weight: 700;
+
+	border-radius: 10px;
+	border: none;
+
+	background-color: rgba(255, 255, 255, 0.62);
+	color: #ffffff;
+}
+.global__section-feedback-form-input:focus{
+	outline: none;
+}
+.global__section-feedback-form-input::placeholder{
+	color: #ffffff;
+}
 
 /* -------------------- colors -------------------- */
 
