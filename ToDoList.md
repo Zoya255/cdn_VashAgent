@@ -1,0 +1,58 @@
+# ToDoList
+
+
+## 13.11.2020
+
+*Project*
+
+- start of project, our first order
+
+*Daniel*
+
+- create PSD maket
+
+*Sergo*
+
+- create first version of template
+
+
+## 14.11.2020
+
+*Sergo*
+
+- update of template
+
+
+## 15.11.2020
+
+*Sergo*
+
+- update of template
+
+
+## 16.11.2020
+
+*Daniel*
+
+- update of maket
+
+
+## 17.11.2020
+
+*Sergo*
+
+- update template
+
+
+## 18.11.2020
+
+- move order in another repository from repository of Codeoon
+
+
+## 23.11.2020
+
+*Sergo*
+
+- add new libs and files
+- add animate
+- update template
