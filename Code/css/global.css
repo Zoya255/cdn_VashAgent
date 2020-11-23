@@ -239,13 +239,13 @@
 	margin: 0px auto;
 
 	width: 60vw;
-	height: 20%;
+	height: 15%;
 }
 .global__section-achievements-title{
 	display: inline-block;
 
-	margin-top: 1em;
-	margin-bottom: 0.5em;
+	margin-top: 0.7em;
+	margin-bottom: 0.2em;
 
 	font-family: Montserrat;
 	font-size: 4.5em;
@@ -279,33 +279,63 @@
 
 }
 .global__section-feedback-form-wrapper{
+	display: grid;
+	grid-template-areas: "sf_text sf_form";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1fr;
+
 	width: 100%;
 	height: 50%;
 
 	background-color: #0e606e;
 }
+.global__section-feedback-form-text-wrapper{
+	grid-area: sf_text;
+
+	margin: auto 0px;
+}
 .global__section-feedback-title{
+	margin: 0.625em 2em;
+
+	text-align: center;
 	font-family: Montserrat;
 	font-size: 3em;
 	font-weight: 700;
 
 	color: #ffffff;
 }
+.global__section-feedback-title-big{
+	font-size: 1.3em;
+}
 .global__section-feedback-text{
+	margin: 1em 2em;
+
+	text-align: center;
 	font-family: Montserrat;
 	font-size: 1.875em;
 	font-weight: 700;
+	line-height: 30px;
 
 	color: #ffffff;
+}
+.global__section-feedback-form{
+	grid-area: sf_form;
+
+	margin: auto 0px;
 }
 .global__section-feedback-form-input{
 	display: block;
 
 	margin: 40px 0px;
+	padding: 15px 20px;
+
+	width: 85%;
 
 	font-family: Montserrat;
 	font-size: 1.5em;
 	font-weight: 700;
+
+	resize: none;
 
 	border-radius: 10px;
 	border: none;
