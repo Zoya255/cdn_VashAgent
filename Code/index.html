@@ -3,8 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>VashAgent</title>
+
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<link rel="stylesheet" type="text/css" href="css/external/jquery.pagepiling.min.css">
+
+		<script src="js/external/jquery-3.5.1.min.js"></script>
+		<script src="js/external/jquery.pagepiling.min.js"></script>
+		<script src="js/page-index.js"></script>
 	</head>
 
 	<body class="global__body">
@@ -13,7 +19,7 @@
 				 src="img/logo.svg">
 
 			<nav class="global__nav">
-				<a href="#" class="global__nav-link">
+				<a href="#main" class="global__nav-link">
 					<span class="global__nav-link-text">Главная</span>
 				</a>
 				
@@ -35,8 +41,8 @@
 			</nav>
 		</header>
 
-		<main class="global__main">
-			<section class="global__main-section global__section-main">
+		<main class="global__main" id="script__pagepiling">
+			<section class="section global__main-section global__section-main">
 				<div class="global__section-main-panel">
 					<div class="global__section-main-panel-text">
 						<p class="global__section-main-panel-text-rieltor">
@@ -56,9 +62,7 @@
 				<div class="global__section-main-photo"></div>
 			</section>
 
-			<section class="global__main-section global__section-about">
-				<a name="about" class="link-fix"></a>
-
+			<section class="section global__main-section global__section-about">
 				<div class="global__section-about-content-wrapper">
 					<div class="global__section-about-text">
 						<p class="global__section-about-text-min">
@@ -86,9 +90,7 @@
 				</div>
 			</section>
 
-			<section class="global__main-section global__section-services">
-				<a name="services" class="link-fix"></a>
-
+			<section class="section global__main-section global__section-services">
 				<div class="global__section-services-blocks-wrapper">
 					<div class="global__section-services-block">
 						<p class="global__section-services-block-title">
@@ -143,9 +145,7 @@
 				</div>
 			</section>
 
-			<section class="global__main-section global__section-achievements">
-				<a name="achievements" class="link-fix"></a>
-
+			<section class="section global__main-section global__section-achievements">
 				<div class="global__section-achievements-title-wrapper">
 					<h2 class="global__section-achievements-title">Достижения</h2>
 				</div>
@@ -185,9 +185,7 @@
 				</div>
 			</section>
 
-			<section class="global__main-section global__section-feedback">
-				<a name="feedback" class="link-fix"></a>
-
+			<section class="section global__main-section global__section-feedback">
 				<div class="global__section-feedback-form-wrapper">
 					<p class="global__section-feedback-title">ЗДЕСЬ БУДЕТ ВАША ЗАЯВКА</p>
 
@@ -208,10 +206,7 @@
 				</div>
 			</section>
 
-			<section class="global__main-section">
-				
-			</section>
-
+			<!--
 			<div class="fixed__block">
 				<a href="#"
 				   class="fixed__block-button fixed__block-button-top">‹</a>
@@ -245,6 +240,7 @@
 				<a href="#"
 				   class="fixed__block-button fixed__block-button-bottom">›</a>
 			</div>
+			-->
 		</main>
 	</body>
 </html>

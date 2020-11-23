@@ -395,12 +395,3 @@
 .fixed__block-button:hover{
 	color: #cee002;
 }
-
-/* -------------------- links -------------------- */
-
-.link-fix:before{
-	display: block;
-	content: "";
-	height: 60px;
-	margin: -60px 0 0;
-}
