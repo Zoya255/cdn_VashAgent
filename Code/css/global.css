@@ -47,7 +47,7 @@
 	margin: 0px auto;
 
 	font-size: 1.6em;
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-weight: 400;
 }
 .global__nav-link{
@@ -127,7 +127,69 @@
 .global__section-about{
 
 }
-.global__section-about-content-wrapper{
+.global__section-about-title-wrapper{
+	margin: 0px auto;
+
+	width: 60vw;
+}
+.global__section-about-title{
+	display: inline-block;
+
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	padding-bottom: 0.2em;
+
+	font-family: Roboto;
+	font-size: 4.5em;
+	font-weight: 700;
+
+	border-bottom: 4px solid #037d94;
+}
+.global__section-about-block{
+	display: grid;
+	grid-template-areas: "sa-lable  sa-text"
+						 "sa-slider sa-text";
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+
+	margin: 0px auto;
+
+	width: 58vw;
+
+	background-color: #037d94;
+	color: #ffffff;
+}
+.global__section-about-label{
+	grid-area: sa-lable;
+
+	display: inline;
+
+	padding: 2em 1.5em 5em;
+	margin: 0px;
+
+	font-family: Roboto;
+}
+.global__section-about-text{
+	grid-area: sa-text;
+
+	padding: 2em 2em 4em 0em;
+	margin: 0px;
+
+	font-family: Cambria;
+	font-size: 1.25rem;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 1.875rem;
+	text-align: left;
+}
+
+/* -------------------- section advantage -------------------- */
+
+.global__section-advantage{
+
+}
+.global__section-advantage-content-wrapper{
 	display: grid;
 	grid-template-areas: "none3 none none5"
 						 "title none image"
@@ -140,34 +202,34 @@
 	width: 62vw;
 	height: 100%;
 }
-.global__section-about-text{
+.global__section-advantage-text{
 	grid-area: title;
 }
-.global__section-about-text-min{
+.global__section-advantage-text-min{
 	margin: 0px;
 
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-size: 0.8em;
 	font-weight: 400;
 }
-.global__section-about-text-title{
+.global__section-advantage-text-title{
 	margin-top: 40px;
 	margin-bottom: 60px;
 
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-weight: 700;
 	font-size: 3em;
 	letter-spacing: -1.2px;
 	line-height: 48px;
 	text-transform: uppercase;
 }
-.global__section-about-text-list{
+.global__section-advantage-text-list{
 	margin: 0px;
 	padding-left: 0px;
 
 	list-style: none;
 
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-weight: 500;
 	font-size: 1.1em;
 	text-transform: uppercase;
@@ -175,15 +237,26 @@
 
 	color: #666666;
 }
-.global__section-about-image-wrapper{
+.global__section-advantage-text-list-item:hover{
+	color: #000000;
+}
+.global__section-advantage-image-wrapper{
 	grid-area: image;
 
-	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 
+	color: #ffffff;
 	background-color: #6fb8be;
 }
-.global__section-about-image{
-	margin: 26px 0px;
+.global__section-advantage-image{
+	font-family: Montserrat;
+	font-size: 3.875rem;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
 }
 
 /* -------------------- section services -------------------- */
@@ -199,11 +272,13 @@
 
 	margin: 0px auto;
 
-	width: 50vw;
-	height: 100%;
+	width: 55vw;
+	height: 95%;
 }
 .global__section-services-block{
-	margin: 15px;
+	position: relative;
+
+	margin: 25px 15px;
 
 	width: 28%;
 
@@ -215,61 +290,66 @@
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
 }
+.global__section-services-block:hover .global__section-services-block-price{
+	color: #037d94;
+}
 .global__section-services-block-title{
 	margin: 20px;
 
-	font-family: Montserrat;
+	font-family: Roboto;
+	font-size: 1.5rem;
 	font-weight: 400;
-	font-size: 1.875em;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 1.875rem;
+	text-align: center;
 }
 .global__section-services-block-text{
-	margin: 20px;
+	margin: 20px 5px 2em;
 
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-size: 1em;
 	line-height: 30px;
 }
-
-/* -------------------- section achievements -------------------- */
-
-.global__section-achievements{
-
-}
-.global__section-achievements-title-wrapper{
+.global__section-services-block-price{
 	margin: 0px auto;
 
-	width: 60vw;
-	height: 15%;
+	text-align: center;
+	font-weight: 500;
+
+	border: 1px solid #037d94;
+	color: #6fb8be;
 }
-.global__section-achievements-title{
-	display: inline-block;
+.global__section-services-block-list{
+	margin-left: -40px;
 
-	margin-top: 0.7em;
-	margin-bottom: 0.2em;
+	list-style: none;
 
-	font-family: Montserrat;
-	font-size: 4.5em;
-	font-weight: 700;
-
-	border-bottom: 4px solid #037d94;
+	font-size: 1rem;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
 }
-.global__section-achievements-blocks-wrapper{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: center;
+.global__section-services-block-list-item{
+	margin-bottom: .875rem;
 
-	margin: 0px auto;
-
-	width: 55vw;
-	height: 80%;
+	line-height: normal;
 }
-.global__section-achievements-block{
-	margin: 20px;
+.global__section-services-block-hr{
+	position: absolute; 
+	
+	left: 30%;
+	bottom: 0px;
 
-	width: 20%;
-	height: 36%;
+	margin-bottom: 1em;
 
+	width: 40%;
+	height: 0.063rem;
+
+	box-shadow: 0 0 0.25rem 0.063rem rgba(3, 125, 148, 0.28);
+
+	border: none;
 	background-color: #037d94;
 }
 
@@ -298,7 +378,7 @@
 	margin: 0.625em 2em;
 
 	text-align: center;
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-size: 3em;
 	font-weight: 700;
 
@@ -311,7 +391,7 @@
 	margin: 1em 2em;
 
 	text-align: center;
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-size: 1.875em;
 	font-weight: 700;
 	line-height: 30px;
@@ -331,7 +411,7 @@
 
 	width: 85%;
 
-	font-family: Montserrat;
+	font-family: Roboto;
 	font-size: 1.5em;
 	font-weight: 700;
 
@@ -349,6 +429,8 @@
 .global__section-feedback-form-input::placeholder{
 	color: #ffffff;
 }
+
+
 
 /* -------------------- colors -------------------- */
 

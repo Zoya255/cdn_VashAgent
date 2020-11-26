@@ -2,6 +2,6 @@ $(document).ready(function() {
 	$('#script__pagepiling').pagepiling({
 		verticalCentered: false,
 		sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
-		anchors: ['main', 'about', 'services', 'achievements', 'feedback'],
+		anchors: ['main', 'about', 'advantage', 'services', 'feedback'],
 	});
 });

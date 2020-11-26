@@ -5,6 +5,7 @@
 		<title>VashAgent</title>
 
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
 		<link rel="stylesheet" type="text/css" href="css/global.css">
 		<link rel="stylesheet" type="text/css" href="css/external/jquery.pagepiling.min.css">
 
@@ -23,7 +24,7 @@
 					<span class="global__nav-link-text">Главная</span>
 				</a>
 				
-				<a href="#about" class="global__nav-link">
+				<a href="#advantage" class="global__nav-link">
 					<span class="global__nav-link-text">Преимущества</span>
 				</a>
 				
@@ -38,6 +39,7 @@
 		</header>
 
 		<main class="global__main" id="script__pagepiling">
+			<!-- open section main  -->
 			<section class="section global__main-section global__section-main">
 				<div class="global__section-main-panel">
 					<div class="global__section-main-panel-text">
@@ -57,53 +59,107 @@
 
 				<div class="global__section-main-photo"></div>
 			</section>
+			<!-- close section main -->
 
-			<section class="section global__main-section global__section-achievements">
-				<div class="global__section-achievements-title-wrapper">
-					<h2 class="global__section-achievements-title">Обо мне</h2>
+			<!-- open section about  -->
+			<section class="section global__main-section global__section-about">
+				<div class="global__section-about-title-wrapper">
+					<h2 class="global__section-about-title">Обо мне</h2>
 				</div>
 				
-				<div class="global__section-achievements-blocks-wrapper">
-					Здравствуй! Меня зовут Ткаченко Ольга и я один из лучших риелторов в городе Хабаровск.
+				<div class="global__section-about-block">
+					<h3 class="global__section-about-label">МОИ ДОСТИЖЕНИЯ</h3>
 
-					Моя задача избавить от головной боли продавцов и покупателей любой недвижимости в Хабаровске и пригороде Хабаровска.
+					<div class="slider">
+						<input type="radio" name="slider2" id="slider2_1" checked="checked">
+						<label for="slider2_1"></label>
+						<div>
+							<img src="img/sertificate.png">
+						</div>
+						<label for="slider2_2"></label>
 
-					Оформляю ипотеку за 1 день с  ставкой ниже, чем в банке! Вам даже не придётся выходить из дома! Нужно только прислать любым удобным способом необходимый пакет документов.
+						<!-- - - - - - - - - - - -->
 
-					Не продаётся? Продадим!
-					На любую недвижимость есть свой покупатель - главное его не пропустить.
+						<input type="radio" name="slider2" id="slider2_2">
+						<label for="slider2_2"></label>
+						<div>
+							<img src="img/lamba_2.jpeg">
+						</div>
+						<label for="slider2_3"></label>
 
-					Полное сопровождение сделки, и защита интересов клиента - это обязательное условие сотрудничества!
-					Гарантирую юридическую чистоту сделки.
+						<!-- - - - - - - - - - - -->
+
+						<input type="radio" name="slider2" id="slider2_3">
+						<label for="slider2_3"></label>
+						<div>
+							<img src="img/lamba_3.jpeg">
+						</div>
+						<label for="slider2_4"></label>
+
+						<!-- - - - - - - - - - - -->
+
+						<input type="radio" name="slider2" id="slider2_4">
+						<label for="slider2_4"></label>
+						<div>
+							<img src="img/lamba_4.jpeg">
+						</div>
+						<label for="slider2_5"></label>
+					</div>
+
+					<p class="global__section-about-text">
+						Здравствуй! Меня зовут Ткаченко Ольга и я один из лучших риелторов в городе Хабаровск.<br>
+						Моя задача избавить от головной боли продавцов и покупателей любой недвижимости в Хабаровске и пригороде Хабаровска.<br>
+						Оформляю ипотеку за 1 день с  ставкой ниже, чем в банке! Вам даже не придётся выходить из дома! Нужно только прислать любым удобным способом необходимый пакет документов.<br>
+						Не продаётся? Продадим!<br>
+						На любую недвижимость есть свой покупатель - главное его не пропустить.<br>
+						Полное сопровождение сделки, и защита интересов клиента - это обязательное условие сотрудничества!<br>
+						Гарантирую юридическую чистоту сделки.<br>
+					</p>
 				</div>
 			</section>
+			<!-- close section about -->
 
-			<section class="section global__main-section global__section-about">
-				<div class="global__section-about-content-wrapper">
-					<div class="global__section-about-text">
-						<p class="global__section-about-text-min">
+			<!-- open section advantage  -->
+			<section class="section global__main-section global__section-advantage">
+				<div class="global__section-advantage-content-wrapper">
+					<div class="global__section-advantage-text">
+						<p class="global__section-advantage-text-min">
 							Преимущества
 						</p>
 
-						<p class="global__section-about-text-title">
+						<p class="global__section-advantage-text-title">
 							Критерии качественного результата:
 						</p>
 
-						<ol class="global__section-about-text-list">
-							<li>01. Безопасность</li>
-							<li class="color__black">02. Скорость</li>
-							<li>03. Сохранение ваших денег</li>
-							<li>04. Экономия ваших денег</li>
-							<li>05. Инструменты эффективной продажи</li>
+						<ol class="global__section-advantage-text-list">
+							<li class="global__section-advantage-text-list-item">
+								01. Безопасность
+							</li>
+							<li class="global__section-advantage-text-list-item color__black">
+								02. Скорость
+							</li>
+							<li class="global__section-advantage-text-list-item">
+								03. Сохранение ваших денег
+							</li>
+							<li class="global__section-advantage-text-list-item">
+								04. Экономия ваших денег
+							</li>
+							<li class="global__section-advantage-text-list-item">
+								05. Инструменты эффективной продажи
+							</li>
 						</ol>
 					</div>
 
-					<div class="global__section-about-image-wrapper">
-						Гарантия чистых и прозрачных сделок
+					<div class="global__section-advantage-image-wrapper">
+						<p class="global__section-advantage-image">
+							Гарантия чистых и прозрачных сделок
+						</p>
 					</div>
 				</div>
 			</section>
+			<!-- close section advantage -->
 
+			<!-- open section services  -->
 			<section class="section global__main-section global__section-services">
 				<div class="global__section-services-blocks-wrapper">
 					<div class="global__section-services-block">
@@ -112,14 +168,20 @@
 						</p>
 
 						<div class="global__section-services-block-text">
-							<p>От 30000 рублей</p>
+							<p class="global__section-services-block-price">От 30.000 рублей</p>
 
-							<ul>
-								<li>Подготовка документов к сделке</li>
+							<ul class="global__section-services-block-list">
+								<li class="global__section-services-block-list-item">
+									Подготовка документов к сделке
+								</li>
 
-								<li>Тщательная проверка объекта</li>
+								<li class="global__section-services-block-list-item">
+									Тщательная проверка объекта
+								</li>
 							</ul>
 						</div>
+
+						<hr class="global__section-services-block-hr">
 					</div>
 
 					<div class="global__section-services-block">
@@ -128,42 +190,67 @@
 						</p>
 
 						<div class="global__section-services-block-text">
-							<p>От 50.000 рублей</p>
+							<p class="global__section-services-block-price">От 50.000 рублей</p>
 
-							<ul>
-								<li>Проверка объекта и собственников (юр. заключение)</li>
+							<ul class="global__section-services-block-list">
+								<li class="global__section-services-block-list-item">
+									Подготовка документов
+								</li>
 
-								<li>Подготовка документов</li>
+								<li class="global__section-services-block-list-item">
+									Проведение сделки
+								</li>
 
-								<li>Проведение сделки</li>
+								<li class="global__section-services-block-list-item">
+									Взаиморасчеты
+								</li>
 
-								<li>Взаиморасчеты</li>
+								<li class="global__section-services-block-list-item">
+									Передача объекта
+								</li>
 
-								<li>Передача объекта</li>
+								<li class="global__section-services-block-list-item">
+									Проверка объекта и собственников (юр. заключение)
+								</li>
 							</ul>
 						</div>
+
+						<hr class="global__section-services-block-hr">
 					</div>
 
 					<div class="global__section-services-block">
-						<p class="global__section-services-block-title">
+						<p class="global__section-services-block-title"
+						   style="line-height: calc(3rem + 12px);">
 							Поиск и приобретение
 						</p>
 
 						<div class="global__section-services-block-text">
-							<p>100.000 рублей</p>
+							<p class="global__section-services-block-price">100.000 рублей</p>
 
-							<ul>
-								<li>Помощь в одобрении ипотеки</li>
+							<ul class="global__section-services-block-list">
+								<li class="global__section-services-block-list-item">
+									Помощь в одобрении ипотеки
+								</li>
 
-								<li>Подборка объектов</li>
+								<li class="global__section-services-block-list-item">
+									Подборка объектов
+								</li>
 
-								<li>Организаяция просмотров</li>
+								<li class="global__section-services-block-list-item">
+									Организаяция просмотров
+								</li>
 
-								<li>Ведение переговоров</li>
+								<li class="global__section-services-block-list-item">
+									Ведение переговоров
+								</li>
 
-								<li>Сопровождение сделки</li>
+								<li class="global__section-services-block-list-item">
+									Сопровождение сделки
+								</li>
 							</ul>
 						</div>
+
+						<hr class="global__section-services-block-hr">
 					</div>
 
 					<div class="global__section-services-block">
@@ -172,44 +259,69 @@
 						</p>
 
 						<div class="global__section-services-block-text">
-							<p>От 100.000 рублей</p>
+							<p class="global__section-services-block-price">От 100.000 рублей</p>
 
-							<ul>
-								<li>Оценка объекта недвижимости</li>
+							<ul class="global__section-services-block-list">
+								<li class="global__section-services-block-list-item">
+									Оценка объекта недвижимости
+								</li>
 
-								<li>Помощь в подготовке к продаже</li>
+								<li class="global__section-services-block-list-item">
+									Помощь в подготовке к продаже
+								</li>
 
-								<li>Проведдение рекламной компании</li>
+								<li class="global__section-services-block-list-item">
+									Проведдение рекламной компании
+								</li>
 
-								<li>Профессиональная презентация</li>
+								<li class="global__section-services-block-list-item">
+									Профессиональная презентация
+								</li>
 
-								<li>Организация безопастных расчетов</li>
+								<li class="global__section-services-block-list-item">
+									Организация безопастных расчетов
+								</li>
 
-								<li>Передача объекта</li>
+								<li class="global__section-services-block-list-item">
+									Передача объекта
+								</li>
 							</ul>
 						</div>
+
+						<hr class="global__section-services-block-hr">
 					</div>
 
 					<div class="global__section-services-block">
-						<p class="global__section-services-block-title">
+						<p class="global__section-services-block-title"
+						   style="line-height: calc(3rem + 12px);">
 							Рефенансирование
 						</p>
 
 						<div class="global__section-services-block-text">
-							<p>20.000 рублей</p>
+							<p class="global__section-services-block-price">20.000 рублей</p>
 
-							<ul>
-								<li>Подготовка докеументов (дистанционно)</li>
+							<ul class="global__section-services-block-list">
+								<li class="global__section-services-block-list-item">
+									Подготовка докеументов (дистанционно)
+								</li>
 
-								<li>Подбор выгодной процентной ставки</li>
+								<li class="global__section-services-block-list-item">
+									Подбор выгодной процентной ставки
+								</li>
 
-								<li>Организация встречи с менеджером банка</li>
+								<li class="global__section-services-block-list-item">
+									Организация встречи с менеджером банка
+								</li>
 							</ul>
 						</div>
+
+						<hr class="global__section-services-block-hr">
 					</div>
 				</div>
 			</section>
+			<!-- close section services -->
 
+			<!-- open section feedback  -->
 			<section class="section global__main-section global__section-feedback">
 				<div class="global__section-feedback-form-wrapper">
 					<div class="global__section-feedback-form-text-wrapper">
@@ -238,6 +350,7 @@
 					</form>
 				</div>
 			</section>
+			<!-- close section feedback -->
 
 			<!--
 			<div class="fixed__block">
