@@ -56,3 +56,20 @@
 - add new libs and files
 - add animate
 - update template
+
+
+## 26.11.2020
+
+*Daniel*
+
+- update maket
+
+
+## 27.11.2020
+
+*Sergo*
+
+- update code
+- change fonts
+- add new images
+- update site on host
