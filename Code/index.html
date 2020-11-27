@@ -19,20 +19,24 @@
 			<img class="global__header-title" 
 				 src="img/logo.svg">
 
-			<nav class="global__nav">
-				<a href="#main" class="global__nav-link">
+			<nav class="global__nav" id="script__pagepiling-menu">
+				<a href="#main" class="global__nav-link active" data-menuanchor="main">
 					<span class="global__nav-link-text">Главная</span>
 				</a>
 				
-				<a href="#advantage" class="global__nav-link">
+				<a href="#about"  class="global__nav-link"  data-menuanchor="about">
+					<span class="global__nav-link-text">Обо мне</span>
+				</a>
+				
+				<a href="#services" class="global__nav-link" data-menuanchor="services">
+					<span class="global__nav-link-text">Услуги</span>
+				</a>
+
+				<a href="#advantage" class="global__nav-link" data-menuanchor="advantage">
 					<span class="global__nav-link-text">Преимущества</span>
 				</a>
 				
-				<a href="#services" class="global__nav-link">
-					<span class="global__nav-link-text">Услуги</span>
-				</a>
-				
-				<a href="#forms" class="global__nav-link">
+				<a href="#feedback" class="global__nav-link" data-menuanchor="feedback">
 					<span class="global__nav-link-text">Отзывы</span>
 				</a>
 			</nav>
@@ -63,6 +67,8 @@
 
 			<!-- open section about  -->
 			<section class="section global__main-section global__section-about">
+				<span class="global__section-main-micro-text">обо мне</span>
+
 				<div class="global__section-about-title-wrapper">
 					<h2 class="global__section-about-title">Обо мне</h2>
 				</div>
@@ -119,48 +125,10 @@
 			</section>
 			<!-- close section about -->
 
-			<!-- open section advantage  -->
-			<section class="section global__main-section global__section-advantage">
-				<div class="global__section-advantage-content-wrapper">
-					<div class="global__section-advantage-text">
-						<p class="global__section-advantage-text-min">
-							Преимущества
-						</p>
-
-						<p class="global__section-advantage-text-title">
-							Критерии качественного результата:
-						</p>
-
-						<ol class="global__section-advantage-text-list">
-							<li class="global__section-advantage-text-list-item">
-								01. Безопасность
-							</li>
-							<li class="global__section-advantage-text-list-item color__black">
-								02. Скорость
-							</li>
-							<li class="global__section-advantage-text-list-item">
-								03. Сохранение ваших денег
-							</li>
-							<li class="global__section-advantage-text-list-item">
-								04. Экономия ваших денег
-							</li>
-							<li class="global__section-advantage-text-list-item">
-								05. Инструменты эффективной продажи
-							</li>
-						</ol>
-					</div>
-
-					<div class="global__section-advantage-image-wrapper">
-						<p class="global__section-advantage-image">
-							Гарантия чистых и прозрачных сделок
-						</p>
-					</div>
-				</div>
-			</section>
-			<!-- close section advantage -->
-
 			<!-- open section services  -->
 			<section class="section global__main-section global__section-services">
+				<span class="global__section-advantage-micro-text">Услуги</span>
+
 				<div class="global__section-services-blocks-wrapper">
 					<div class="global__section-services-block">
 						<p class="global__section-services-block-title">
@@ -321,6 +289,48 @@
 			</section>
 			<!-- close section services -->
 
+			<!-- open section advantage  -->
+			<section class="section global__main-section global__section-advantage">
+				<span class="global__section-services-micro-text">преимущества</span>
+
+				<div class="global__section-advantage-content-wrapper">
+					<div class="global__section-advantage-text">
+						<p class="global__section-advantage-text-min">
+							Преимущества
+						</p>
+
+						<p class="global__section-advantage-text-title">
+							Критерии качественного результата:
+						</p>
+
+						<ol class="global__section-advantage-text-list">
+							<li class="global__section-advantage-text-list-item">
+								01. Безопасность
+							</li>
+							<li class="global__section-advantage-text-list-item color__black">
+								02. Скорость
+							</li>
+							<li class="global__section-advantage-text-list-item">
+								03. Сохранение ваших денег
+							</li>
+							<li class="global__section-advantage-text-list-item">
+								04. Экономия ваших денег
+							</li>
+							<li class="global__section-advantage-text-list-item">
+								05. Инструменты эффективной продажи
+							</li>
+						</ol>
+					</div>
+
+					<div class="global__section-advantage-image-wrapper">
+						<p class="global__section-advantage-image">
+							Гарантия чистых и прозрачных сделок
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- close section advantage -->
+
 			<!-- open section forms  -->
 			<section class="section global__main-section global__section-forms">
 				<div class="global__section-forms-form-text-wrapper">
@@ -360,20 +370,50 @@
 			<!-- close section forms -->
 
 			<!-- open section feedback  -->
-			<section class="">
-				
+			<section class="section global__main-section global__section-feedback">
+				<div class="global__section-feedback-comments">
+					<div class="global__section-feedback-comment">
+						<div class="global__section-feedback-comment-avatar">
+							<img class="global__section-feedback-comment-avatar-image"
+								 src="img/cat.png"
+								 alt="cat">
+						</div>
+
+						<p class="global__section-feedback-comment-author">
+							Александра
+						</p>
+
+						<div class="global__section-feedback-comment-stars">
+							<img src="img/star.png" alt="star">
+							<img src="img/star.png" alt="star">
+							<img src="img/star.png" alt="star">
+							<img src="img/star.png" alt="star">
+							<img src="img/star.png" alt="star">
+						</div>
+
+						<p class="global__section-feedback-comment-text">
+							Выражаю огромную благодарность Ткаченко Ольге Владимировне, грамотный специалист, профессионал своего дела , умничка , красавица! Подобрала квартиру , организовала сделку от начала и до конца, помогла в одобрении ипотеки ( без ее помощи были отказы) огромное спасибо, Вы лучшие.
+						</p>
+
+						<p class="global__section-feedback-comment-date">
+							03.08.2020
+						</p>
+
+						<p class="global__section-feedback-comment-source">
+							Источник:
+							<a  class="global__section-feedback-comment-source-link"
+								href="https://www.dvhab.ru/dsd-group#p10644335">
+								https://www.dvhab.ru/dsd-group#p10644335
+							</a>
+						</p>
+					</div>
+				</div>
+
+				<footer class="global__section-feedback-footer">
+					<p class="global__section-feedback-footer-text">FOOTER</p>
+				</footer>
 			</section>
 			<!-- close section feedback -->
-
-			<!--
-			<div class="fixed__block">
-				<a href="#"
-				   class="fixed__block-button fixed__block-button-top">‹</a>
-
-				<a href="#"
-				   class="fixed__block-button fixed__block-button-bottom">›</a>
-			</div>
-			-->
 		</main>
 	</body>
 </html>
