@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Cambria';
-    src: url('Cambria-Italic.eot');
+    src: url('../fonts/Cambria/Cambria-Italic.eot');
     src: local('Cambria Italic'),
          local('Cambria-Italic'),
          url('../fonts/Cambria/Cambria-Italic.eot?#iefix') format('embedded-opentype'),
@@ -27,7 +27,7 @@
 }
 @font-face {
     font-family: 'Cambria';
-    src: url('Cambria-Bold.eot');
+    src: url('../fonts/Cambria/Cambria-Bold.eot');
     src: local('Cambria Bold'),
          local('Cambria-Bold'),
          url('../fonts/Cambria/Cambria-Bold.eot?#iefix') format('embedded-opentype'),
@@ -38,7 +38,7 @@
 }
 @font-face {
     font-family: 'Cambria';
-    src: url('Cambria.eot');
+    src: url('../fonts/Cambria/Cambria.eot');
     src: local('Cambria'),
          url('../fonts/Cambria/Cambria.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Cambria/Cambria.woff') format('woff'),
@@ -48,7 +48,7 @@
 }
 @font-face {
     font-family: 'Cambria';
-    src: url('Cambria-BoldItalic.eot');
+    src: url('../fonts/Cambria/Cambria-BoldItalic.eot');
     src: local('Cambria Bold Italic'),
          local('Cambria-BoldItalic'),
          url('../fonts/Cambria/Cambria-BoldItalic.eot?#iefix') format('embedded-opentype'),
