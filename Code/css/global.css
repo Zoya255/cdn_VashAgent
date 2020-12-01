@@ -112,6 +112,9 @@
 	grid-template-areas: "none1 panel_text none2";
 	grid-template-columns: 2fr 12fr 2fr;
 
+	z-index: 2;
+
+	box-shadow: 0 0 87px rgba(0, 0, 0, 0.59);
 	background-color: #0e606e;
 }
 .global__section-main-panel-text{
@@ -173,6 +176,7 @@
 
 	width: 58vw;
 
+	box-shadow: 0 21px 57px rgba(0, 0, 0, 0.6);
 	background-color: #037d94;
 	color: #ffffff;
 }
@@ -181,7 +185,7 @@
 
 	display: inline;
 
-	padding: 2em 1.5em 5em;
+	padding: 2em 3.3em 5em;
 	margin: 0;
 
 	font-family: Roboto, serif;
@@ -303,9 +307,10 @@
 .global__section-services-block{
 	position: relative;
 
-	margin: 25px 15px;
+	margin: 20px 15px;
 
 	width: 28%;
+	height: 42%;
 
 	color: #ffffff;
 	border: 1px solid #ffffff;
@@ -413,8 +418,8 @@
 	width: 93%;
 
 	font-family: Roboto, serif;
-	font-size: 2em;
-	font-weight: 500;
+	font-size: 1.8em;
+	font-weight: 400;
 
 	border-radius: 0.625rem;
 	border: none;
@@ -448,13 +453,14 @@
 .global__section-forms-form-button:hover{
 	padding: 10px 18px;
 
-	cursor: pointer;
-
-	background: none;
-	border: 2px solid #6fb8be;
+	box-shadow: 0 0 13px #037d94;
+	border-radius: 10px;
+	border: 2px solid #69b4c2;
+	background-color: #69b4c2;
 }
 .global__section-forms-form-button:active{
 	background-color: #6fb8be;
+	box-shadow: none;
 }
 .global__section-forms-form-whatup{
 	text-align: center;
@@ -483,10 +489,13 @@
 	background-color: #0dc143;
 }
 .global__section-forms-form-whatup-button:hover{
-	background-color: #0caf46;
+	box-shadow: 0 0 13px #0bbc4a;
+	border-radius: 10px;
+	background-color: #0dc143;
 }
 .global__section-forms-form-whatup-button:active{
-	background-color: #0dc143;	
+	background-color: #0dc143;
+	box-shadow: none;
 }
 
 /* -------------------- feedback -------------------- */
@@ -519,7 +528,7 @@
 
 	margin-top: 15%;
 
-	border-radius: 3.125rem;
+	box-shadow: 0 20px 24px rgba(0, 0, 0, 0.6);
 	background-color: #69b4c2;
 }
 .global__section-feedback-comment-avatar{
@@ -533,8 +542,8 @@
 .global__section-feedback-comment-author{
 	grid-area: fb_author;
 
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
 
 	font-family: Bahnschrift, serif;
 	font-size: 1.875rem;
@@ -602,7 +611,7 @@
 
 	background-color: #0e606e;
 }
-.global__section-feedback-footer-text{
+.global__section-feedback-footer-copyright{
 	text-align: center;
 	color: #ffffff;
 	font-family: Roboto, serif;
