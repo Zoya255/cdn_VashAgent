@@ -2,8 +2,8 @@
 
 .slider{
 	margin: 0 auto;
-	width: 400px;
-	height: 300px;
+	width: 480px;
+	height: 305px;
 	position: relative;
 	text-align: center;
 }
@@ -47,8 +47,8 @@
 	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 .slider img{
-	width: 400px;
-	height: 300px;
+	width: 480px;
+	height: 305px;
 }
 .slider input:checked + label + div{
 	visibility: visible;

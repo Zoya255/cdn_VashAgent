@@ -498,8 +498,6 @@
 						 "fb_footer";
 	grid-template-columns: 1fr;
 	grid-template-rows: 2fr 1fr;
-
-	background-image: url("../img/table_down.png");
 }
 .global__section-feedback-comments{
 	grid-area: fb_comments;
