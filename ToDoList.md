@@ -67,9 +67,42 @@
 
 ## 27.11.2020
 
+*Daniel*
+
+- update maket
+
 *Sergo*
 
 - update code
 - change fonts
 - add new images
 - update site on host
+
+
+## 29.11.2020
+
+*Sergo*
+
+- add module EasySpy
+
+
+## 01.12.2020
+
+*Daniel*
+
+- update maket
+- update images
+
+*Sergo*
+
+- update code
+- fix bugs
+
+
+## 02.12.2020
+
+*Sergo*
+
+- update code
+- fix bugs
+- adaptive styles
