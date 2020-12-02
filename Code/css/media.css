@@ -4,23 +4,23 @@
 
 @media screen and (min-width: 1500px) {
 
-    .global__nav-link{
-        margin-right: 3em;
-    }
+	.global__nav-link{
+		margin-right: 3em;
+	}
 
 }
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
 
-    .global__nav-link{
-        margin-right: 2em;
-    }
+	.global__nav-link{
+		margin-right: 2em;
+	}
 
 }
 @media screen and (max-width: 1200px) {
 
-    .global__nav-link{
-        margin-right: 1em;
-    }
+	.global__nav-link{
+		margin-right: 1em;
+	}
 
 }
 
@@ -28,16 +28,16 @@
 
 @media screen and (min-width: 1600px) {
 
-    .global__section-main-panel-text-slogan{
-        font-size: 4em;
-    }
+	.global__section-main-panel-text-slogan{
+		font-size: 4em;
+	}
 
 }
 @media screen and (max-width: 1600px) {
 
-    .global__section-main-panel-text-slogan{
-        font-size: 3em;
-    }
+	.global__section-main-panel-text-slogan{
+		font-size: 3em;
+	}
 
 }
 
@@ -45,61 +45,61 @@
 
 @media screen and (min-width: 1600px) {
 
-    .global__section-about-title-wrapper{
-        width: 60vw;
-    }
-    .global__section-about-block{
-        width: 60vw;
-    }
+	.global__section-about-title-wrapper{
+		width: 60vw;
+	}
+	.global__section-about-block{
+		width: 60vw;
+	}
 
 }
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
 
-    .global__section-about-title-wrapper{
-        width: 75vw;
-    }
-    .global__section-about-block{
-        width: 75vw;
-    }
+	.global__section-about-title-wrapper{
+		width: 75vw;
+	}
+	.global__section-about-block{
+		width: 75vw;
+	}
 
 }
 @media screen and (max-width: 1300px) {
-    .global__section-about-title-wrapper{
-        width: 85vw;
-    }
-    .global__section-about-block{
-        width: 85vw;
-    }
+	.global__section-about-title-wrapper{
+		width: 85vw;
+	}
+	.global__section-about-block{
+		width: 85vw;
+	}
 }
 
 /* -------------------- section services -------------------- */
 
 @media screen and (min-width: 1840px) {
 
-    .global__section-services-blocks-wrapper{
-        width: 55vw;
-    }
+	.global__section-services-blocks-wrapper{
+		width: 55vw;
+	}
 
 }
 @media screen and (min-width: 1560px) and (max-width: 1840px) {
 
-    .global__section-services-blocks-wrapper{
-        width: 65vw;
-    }
+	.global__section-services-blocks-wrapper{
+		width: 65vw;
+	}
 
 }
 @media screen and (min-width: 1350px) and (max-width: 1560px) {
 
-    .global__section-services-blocks-wrapper{
-        width: 75vw;
-    }
+	.global__section-services-blocks-wrapper{
+		width: 75vw;
+	}
 
 }
 @media screen and (max-width: 1350px) {
 
-    .global__section-services-blocks-wrapper{
-        width: 85vw;
-    }
+	.global__section-services-blocks-wrapper{
+		width: 85vw;
+	}
 
 }
 
@@ -107,42 +107,42 @@
 
 @media screen and (min-width: 1750px) {
 
-    .global__section-advantage-content-wrapper{
-        width: 60vw;
-    }
-    .global__section-advantage-image{
-        font-size: 3.875rem;
-    }
+	.global__section-advantage-content-wrapper{
+		width: 60vw;
+	}
+	.global__section-advantage-image{
+		font-size: 3.875rem;
+	}
 
 }
 @media screen and (min-width: 1550px) and (max-width: 1750px) {
 
-    .global__section-advantage-content-wrapper{
-        width: 65vw;
-    }
-    .global__section-advantage-image{
-        font-size: 3.4rem;
-    }
+	.global__section-advantage-content-wrapper{
+		width: 65vw;
+	}
+	.global__section-advantage-image{
+		font-size: 3.4rem;
+	}
 
 }
 @media screen and (min-width: 1300px) and (max-width: 1550px) {
 
-    .global__section-advantage-content-wrapper{
-        width: 70vw;
-    }
-    .global__section-advantage-image{
-        font-size: 3.2rem;
-    }
+	.global__section-advantage-content-wrapper{
+		width: 70vw;
+	}
+	.global__section-advantage-image{
+		font-size: 3.2rem;
+	}
 
 }
 @media screen and (max-width: 1300px) {
 
-    .global__section-advantage-content-wrapper{
-        width: 75vw;
-    }
-    .global__section-advantage-image{
-        font-size: 3rem;
-    }
+	.global__section-advantage-content-wrapper{
+		width: 75vw;
+	}
+	.global__section-advantage-image{
+		font-size: 3rem;
+	}
 
 }
 
@@ -150,22 +150,22 @@
 
 @media screen and (min-width: 1500px) {
 
-    .global__section-forms-form-text-wrapper{
-        width: 85%;
-    }
-    .global__section-forms-title{
-        font-size: 3.75rem;
-    }
+	.global__section-forms-form-text-wrapper{
+		width: 85%;
+	}
+	.global__section-forms-title{
+		font-size: 3.75rem;
+	}
 
 }
 @media screen and (max-width: 1500px) {
 
-    .global__section-forms-form-text-wrapper{
-        width: 95%;
-    }
-    .global__section-forms-title{
-        font-size: 3.5rem;
-    }
+	.global__section-forms-form-text-wrapper{
+		width: 95%;
+	}
+	.global__section-forms-title{
+		font-size: 3.5rem;
+	}
 
 }
 
@@ -173,30 +173,40 @@
 
 @media screen and (min-width: 1700px) {
 
-    .global__section-feedback-header{
-        font-size: 4.5rem;
-    }
-    .global__section-feedback-comments{
-        width: 50%;
-    }
+	.global__section-feedback-header{
+		font-size: 4.5rem;
+	}
+	.global__section-feedback-comments{
+		width: 50%;
+	}
+	.global__section-feedback-footer-dsd-logo{
+		left: 20%;
+	}
 
 }
 @media screen and (min-width: 1400px) and (max-width: 1700px) {
 
-    .global__section-feedback-header{
-        font-size: 4rem;
-    }
-    .global__section-feedback-comments{
-        width: 60%;
-    }
+	.global__section-feedback-header{
+		font-size: 4rem;
+	}
+	.global__section-feedback-comments{
+		width: 60%;
+	}
+	.global__section-feedback-footer-dsd-logo{
+		left: 15%;
+	}
 
-}@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1400px) {
 
-    .global__section-feedback-header{
-        font-size: 3.5rem;
-    }
-    .global__section-feedback-comments{
-        width: 70%;
-    }
+	.global__section-feedback-header{
+		font-size: 3.5rem;
+	}
+	.global__section-feedback-comments{
+		width: 70%;
+	}
+	.global__section-feedback-footer-dsd-logo{
+		left: 8%;
+	}
 
 }

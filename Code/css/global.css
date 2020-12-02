@@ -512,7 +512,7 @@
 	grid-template-areas: "fb_comments"
 						 "fb_footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: 2fr 1fr;
+	grid-template-rows: 2.2fr 1fr;
 }
 .global__section-feedback-header{
 	font-family: Roboto, sans-serif;
@@ -620,16 +620,86 @@
 	color: #ffffff;
 }
 .global__section-feedback-footer{
+	position: relative;
+
 	grid-row: fb_footer;
 
+	font-family: Roboto, sans-serif;
+
+	color: #ffffff;
 	background-color: #0e606e;
 }
-.global__section-feedback-footer-copyright{
+.global__section-feedback-footer-dsd-logo{
+	position: absolute;
+
+	top: 30px;
+	left: 20%;
+}
+.global__section-feedback-footer-links{
+	margin-top: 2.875rem;
+
 	text-align: center;
+}
+.global__section-feedback-footer-link-form{
+	display: inline-block;
+
+	padding: 10px 20px;
+
+	width: 160px;
+
+	border-radius: 10px;
+
+	text-decoration: none;
+
 	color: #ffffff;
-	font-family: Roboto, sans-serif;
-	font-size: 4.5rem;
-	font-weight: 700;
+	background-color: #6fb8be;
+}
+.global__section-feedback-footer-link-whatup{
+	display: inline-block;
+
+	margin-left: 1.5rem;
+	padding: 10px 20px;
+
+	width: 160px;
+
+	border-radius: 10px;
+
+	text-decoration: none;
+
+	color: #ffffff;
+	background-color: #0dc143;
+}
+.global__section-feedback-footer-instagram{
+	text-align: center;
+
+	margin-bottom: 1.2rem;
+}
+.global__section-feedback-footer-codeoon{
+	position: relative;
+
+	margin-left: -120px;
+
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
+	line-height: 20px;
+
+}
+.global__section-feedback-footer-codeoon-logo{
+	position: absolute;
+
+	margin-left: 4px;
+	bottom: 2px;
+}
+.global__section-feedback-footer-copyright{
+	font-size: 0.875rem;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 13.7px;
+	text-align: center;
 }
 
 /* -------------------- colors -------------------- */
