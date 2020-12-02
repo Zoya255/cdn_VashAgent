@@ -2,8 +2,6 @@
 
 .slider{
 	margin: 0 auto;
-	width: 480px;
-	height: 305px;
 	position: relative;
 	text-align: center;
 }
@@ -15,7 +13,6 @@
 	width: 1rem;
 	height: 1rem;
 	border-radius: 8px;
-	background: rgba(250, 250, 250, 0.7);
 
 	cursor: pointer;
 
@@ -27,13 +24,7 @@
 
 	transition: background 0.8s ease-out 0s;
 }
-.slider input + label:hover{
-	background: #ffffff;
-}
-.slider input:checked + label{
-	background: #ffffff;
-}
-.slider div{
+.slider > div{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -41,17 +32,52 @@
 	bottom: 0;
 	z-index: 0;
 }
-.slider div{
+.slider > div{
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
-}
-.slider img{
-	width: 480px;
-	height: 305px;
 }
 .slider input:checked + label + div{
 	visibility: visible;
 	opacity: 1;
 	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+}
+
+/* ------------------------------- slider certificates ------------------------------- */
+
+.slider-sert{
+	width: 480px;
+	height: 305px;
+}
+.slider-sert input + label{
+	background: rgba(250, 250, 250, 0.7);
+}
+.slider-sert input + label:hover{
+	background: #ffffff;
+}
+.slider-sert input:checked + label{
+	background: #ffffff;
+}
+.slider-sert > div > img{
+	width: 480px;
+	height: 305px;
+}
+
+/* ------------------------------- slider feedback ------------------------------- */
+
+.slider-feedback{
+	height: 250px;
+}
+.slider-feedback input + label{
+	top: 105%;
+
+	margin-right: 0.5rem;
+
+	background: rgba(0, 0, 0, 0.36);
+}
+.slider-feedback input + label:hover{
+	background: #05799b;
+}
+.slider-feedback input:checked + label{
+	background: #05799b;
 }
