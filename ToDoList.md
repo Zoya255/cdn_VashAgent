@@ -106,3 +106,10 @@
 - update code
 - fix bugs
 - adaptive styles
+
+
+## 04.12.2020
+
+*Sergo*
+
+- update module EasySpy to V2
