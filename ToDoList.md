@@ -113,3 +113,17 @@
 *Sergo*
 
 - update module EasySpy to V2
+
+
+## 05.12.2020
+
+*Sergo*
+
+- update module EasySpy to V3
+- update code, add new feature
+- update data in DB
+- add dumps of databases
+
+*Daniel*
+
+- update texts
