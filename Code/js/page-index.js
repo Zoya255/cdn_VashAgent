@@ -10,6 +10,7 @@ $(document).ready(function() {
 	let status = false;
 
 	$('#script__form-button').click(function () {
+
 		if (!status) {
 			$.ajax({
 				method   : "POST",
@@ -31,6 +32,7 @@ $(document).ready(function() {
 				},
 			})
 		}
+
 	})
 
 });

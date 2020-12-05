@@ -324,7 +324,7 @@
 	grid-template-areas: "none3 none none5"
 						 "title none image"
 						 "none6 none none7";
-	grid-template-columns: 2fr 1fr 2fr;
+	grid-template-columns: 2fr 1fr 2.2fr;
 	grid-template-rows: 1fr auto 1fr;
 
 	margin: 0 auto;
@@ -382,7 +382,7 @@
 }
 .global__section-advantage-image{
 	font-family: Montserrat, sans-serif;
-	font-size: 3.875rem;
+	font-size: 1.5em;
 	font-weight: 700;
 	font-style: normal;
 	letter-spacing: normal;
