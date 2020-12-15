@@ -11,11 +11,19 @@
 	R::setup($host, $CONF_USER, $CONF_PASS);
 	R::freeze(true);
 
+	$name      = $_POST["name"];
+	$telephone = $_POST["telephone"];
+	$email     = $_POST["email"];
+	$ip        = $_SERVER["REMOTE_ADDR"];
+
 	$order = R::dispense( 'orders' );
 
-		$order->name      = $_POST["name"];
-		$order->telephone = $_POST["telephone"];
-		$order->email     = $_POST["email"];
-		$order->ip        = $_SERVER["REMOTE_ADDR"];
+		$order->name      = $name;
+		$order->telephone = $telephone;
+		$order->email     = $email;
+		$order->ip        = $ip;
 
 	R::store( $order );
+
+	mail( "olgatkachenko2008@yandex.ru","Новый заказ",
+		"К вам обратились на сайте VashAgent27.ru\n\nИмя: ${name}\nТелефон: ${telephone}\nПочта: ${email}\n\nIP: ${ip}" );

@@ -491,6 +491,7 @@
 	border: none;
 	outline: none;
 
+	text-decoration: none;
 	color: #ffffff;
 	background-color: #0dc143;
 }
@@ -670,9 +671,11 @@
 	background-color: #0dc143;
 }
 .global__section-feedback-footer-instagram{
-	text-align: center;
+	display: inline-block;
 
-	margin-bottom: 1.2rem;
+	width: 100%;
+
+	text-align: center;
 }
 .global__section-feedback-footer-codeoon{
 	position: relative;
