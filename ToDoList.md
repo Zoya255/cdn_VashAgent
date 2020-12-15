@@ -127,3 +127,13 @@
 *Daniel*
 
 - update texts
+
+
+## 15.12.2020
+
+*Sergo*
+
+- final update
+- add code for mail
+- add links
+- add favicon
