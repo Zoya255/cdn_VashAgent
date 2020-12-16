@@ -137,3 +137,13 @@
 - add code for mail
 - add links
 - add favicon
+
+
+## 16.12.2020
+
+*Sergo*
+
+- add animation for swithed text
+- add real comments
+- update media css
+- fix bugs
