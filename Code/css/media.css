@@ -51,6 +51,9 @@
 	.global__section-about-block{
 		width: 60vw;
 	}
+	.global__section-about-text{
+		padding: 2em 2em 4em 0;
+	}
 
 }
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
@@ -61,15 +64,23 @@
 	.global__section-about-block{
 		width: 75vw;
 	}
+	.global__section-about-text{
+		padding: 2em 2em 2em 0;
+	}
 
 }
 @media screen and (max-width: 1300px) {
+
 	.global__section-about-title-wrapper{
 		width: 85vw;
 	}
 	.global__section-about-block{
 		width: 85vw;
 	}
+	.global__section-about-text{
+		padding: 1.5em 1.5em 1.5em 0;
+	}
+
 }
 
 /* -------------------- section services -------------------- */
@@ -177,7 +188,7 @@
 		font-size: 4.5rem;
 	}
 	.global__section-feedback-comments{
-		width: 50%;
+		width: 55%;
 	}
 	.global__section-feedback-footer-dsd-logo{
 		left: 20%;
@@ -190,7 +201,7 @@
 		font-size: 4rem;
 	}
 	.global__section-feedback-comments{
-		width: 60%;
+		width: 65%;
 	}
 	.global__section-feedback-footer-dsd-logo{
 		left: 15%;
@@ -203,7 +214,7 @@
 		font-size: 3.5rem;
 	}
 	.global__section-feedback-comments{
-		width: 70%;
+		width: 75%;
 	}
 	.global__section-feedback-footer-dsd-logo{
 		left: 8%;

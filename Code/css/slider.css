@@ -63,10 +63,48 @@
 	height: 305px;
 }
 
+@media screen and (min-width: 1600px) {
+
+	.slider-sert{
+		width: 480px;
+		height: 305px;
+	}
+	.slider-sert > div > img{
+		width: 480px;
+		height: 305px;
+	}
+
+}
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+
+	.slider-sert{
+		width: 432px;
+		height: 275px;
+	}
+	.slider-sert > div > img{
+		width: 432px;
+		height: 275px;
+	}
+
+}
+@media screen and (max-width: 1300px) {
+
+	.slider-sert{
+		width: 384px;
+		height: 244px;
+	}
+	.slider-sert > div > img{
+		width: 384px;
+		height: 244px;
+	}
+
+}
+
+
 /* ------------------------------- slider feedback ------------------------------- */
 
 .slider-feedback{
-	height: 250px;
+	height: 270px;
 }
 .slider-feedback input + label{
 	top: 105%;

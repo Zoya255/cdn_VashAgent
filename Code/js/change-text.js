@@ -29,4 +29,5 @@ function change_item(int) {
     document.getElementsByClassName("color__black")[0].classList.remove("color__black");
     document.getElementsByClassName("global__section-advantage-image")[0].innerHTML = array_adv[int];
     document.getElementsByClassName("global__section-advantage-text-list-item")[int].classList.add("color__black");
+    document.getElementsByClassName("global__section-advantage-image")[0].animate([ { opacity: 0 }, { opacity: 1 } ], { duration: 500 });
 }
