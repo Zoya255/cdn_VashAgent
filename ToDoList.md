@@ -147,3 +147,11 @@
 - add real comments
 - update media css
 - fix bugs
+
+
+## 17.12.2020
+
+*Sergo*
+
+- fix shadow
+- fix fotter
