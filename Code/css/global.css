@@ -515,7 +515,9 @@
 	grid-template-areas: "fb_comments"
 						 "fb_footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: 2.2fr 1fr;
+	grid-template-rows: 1fr auto;
+
+	height: calc(100% - 55px) !important;
 }
 .global__section-feedback-header{
 	font-family: Roboto, sans-serif;
@@ -544,7 +546,7 @@
 	grid-template-columns: 3fr 2fr 8fr;
 	grid-template-rows: auto auto auto;
 
-	box-shadow: 0 20px 24px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 15px 22px rgba(0, 0, 0, 0.3);
 	background-color: #69b4c2;
 }
 .global__section-feedback-comment-avatar{
