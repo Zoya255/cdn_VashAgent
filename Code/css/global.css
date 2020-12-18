@@ -142,6 +142,7 @@
 }
 .global__section-main-photo{
 	background-image: url(../img/main.png);
+	background-size: cover;
 }
 
 /* -------------------- section about -------------------- */
@@ -546,6 +547,8 @@
 	grid-template-columns: 3fr 2fr 8fr;
 	grid-template-rows: auto auto auto;
 
+	height: 95%;
+
 	box-shadow: 0 15px 22px rgba(0, 0, 0, 0.3);
 	background-color: #69b4c2;
 }
@@ -692,7 +695,6 @@
 	letter-spacing: normal;
 	text-align: center;
 	line-height: 20px;
-
 }
 .global__section-feedback-footer-codeoon-logo{
 	position: absolute;
