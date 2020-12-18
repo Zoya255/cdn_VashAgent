@@ -155,3 +155,10 @@
 
 - fix shadow
 - fix fotter
+
+
+## 18.12.2020
+
+*Sergo*
+
+- fix images
