@@ -183,7 +183,7 @@
 
 	width: 60vw;
 
-	box-shadow: 0 21px 57px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 15px 22px rgba(0, 0, 0, 0.4);
 	background-color: #037d94;
 	color: #ffffff;
 }
@@ -643,8 +643,23 @@
 	top: 30px;
 	left: 20%;
 }
+.global__section-feedback-footer-rgr-logo{
+	position: absolute;
+
+	top: 35px;
+	left: 66%;
+}
+.global__section-feedback-footer-rgr-dfo-logo{
+	position: absolute;
+
+	top: 20px;
+	left: 70%;
+
+	height: 90px;
+}
 .global__section-feedback-footer-links{
 	margin-top: 2.875rem;
+	margin-bottom: 18px;
 
 	text-align: center;
 }
@@ -683,6 +698,14 @@
 	width: 100%;
 
 	text-align: center;
+	text-decoration: none;
+}
+.global__section-feedback-footer-instagram-text{
+	font-weight: 300;
+	font-size: 1.5em;
+	vertical-align: 10px;
+
+	color: #ffffff;
 }
 .global__section-feedback-footer-codeoon{
 	position: relative;

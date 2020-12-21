@@ -193,6 +193,12 @@
 	.global__section-feedback-footer-dsd-logo{
 		left: 20%;
 	}
+	.global__section-feedback-footer-rgr-logo {
+		left: 66%;
+	}
+	.global__section-feedback-footer-rgr-dfo-logo{
+		left: 70%;
+	}
 
 }
 @media screen and (min-width: 1400px) and (max-width: 1700px) {
@@ -206,6 +212,12 @@
 	.global__section-feedback-footer-dsd-logo{
 		left: 15%;
 	}
+	.global__section-feedback-footer-rgr-logo {
+		left: 70%;
+	}
+	.global__section-feedback-footer-rgr-dfo-logo{
+		left: 75%;
+	}
 
 }
 @media screen and (max-width: 1400px) {
@@ -218,6 +230,12 @@
 	}
 	.global__section-feedback-footer-dsd-logo{
 		left: 8%;
+	}
+	.global__section-feedback-footer-rgr-logo {
+		left: 72%;
+	}
+	.global__section-feedback-footer-rgr-dfo-logo{
+		left: 80%;
 	}
 
 }
