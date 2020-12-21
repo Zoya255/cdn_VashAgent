@@ -166,6 +166,10 @@
 
 ## 21.12.2020
 
+*Sergo*
+
 - fix texts
 - add new links
 - add new images in footer
+- update slider
+- update module EasySpy to V4
