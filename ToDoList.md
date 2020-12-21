@@ -162,3 +162,10 @@
 *Sergo*
 
 - fix images
+
+
+## 21.12.2020
+
+- fix texts
+- add new links
+- add new images in footer
