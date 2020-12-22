@@ -173,3 +173,14 @@
 - add new images in footer
 - update slider
 - update module EasySpy to V4
+
+
+## 22.12.2020
+
+*Sergo*
+
+- add new extention lib
+- update form
+- learn new - npm
+- learn new - webpack
+- learn new - modules
