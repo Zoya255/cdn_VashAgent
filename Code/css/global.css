@@ -141,7 +141,7 @@
 	background-color: #cee002;
 }
 .global__section-main-photo{
-	background-image: url(../img/main.png);
+	background-image: url(../img/main.jpg);
 	background-size: cover;
 }
 
@@ -668,7 +668,7 @@
 
 	padding: 10px 20px;
 
-	width: 160px;
+	width: 190px;
 
 	border-radius: 10px;
 
@@ -683,7 +683,7 @@
 	margin-left: 1.5rem;
 	padding: 10px 20px;
 
-	width: 160px;
+	width: 190px;
 
 	border-radius: 10px;
 
