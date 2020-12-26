@@ -184,3 +184,11 @@
 - learn new - npm
 - learn new - webpack
 - learn new - modules
+
+
+## 26.12.2020
+
+*Sergo*
+
+- add images
+- fix bugs
