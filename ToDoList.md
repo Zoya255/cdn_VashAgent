@@ -192,3 +192,10 @@
 
 - add images
 - fix bugs
+
+
+## 08.12.2020
+
+*Sergo*
+
+- update module EasySpy to V5
