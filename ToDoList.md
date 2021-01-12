@@ -199,3 +199,12 @@
 *Sergo*
 
 - update module EasySpy to V5
+
+
+## 12.01.2020
+
+*Sergo*
+
+- replace main image
+- optimization images
+- final fixes
