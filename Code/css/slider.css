@@ -45,33 +45,33 @@
 
 /* ------------------------------- slider certificates ------------------------------- */
 
-.slider-sert{
+.slider-cert{
 	width: 480px;
 	height: 360px;
 }
-.slider-sert input + label{
+.slider-cert input + label{
 	top: 105%;
 
 	background: rgba(250, 250, 250, 0.7);
 }
-.slider-sert input + label:hover{
+.slider-cert input + label:hover{
 	background: #ffffff;
 }
-.slider-sert input:checked + label{
+.slider-cert input:checked + label{
 	background: #ffffff;
 }
-.slider-sert > div > img{
+.slider-cert > div > img{
 	width: 480px;
 	height: 360px;
 }
 
 @media screen and (min-width: 1600px) {
 
-	.slider-sert{
+	.slider-cert{
 		width: 480px;
 		height: 360px;
 	}
-	.slider-sert > div > img{
+	.slider-cert > div > img{
 		width: 480px;
 		height: 360px;
 	}
@@ -79,11 +79,11 @@
 }
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
 
-	.slider-sert{
+	.slider-cert{
 		width: 432px;
 		height: 324px;
 	}
-	.slider-sert > div > img{
+	.slider-cert > div > img{
 		width: 432px;
 		height: 324px;
 	}
@@ -91,11 +91,11 @@
 }
 @media screen and (max-width: 1300px) {
 
-	.slider-sert{
+	.slider-cert{
 		width: 384px;
 		height: 288px;
 	}
-	.slider-sert > div > img{
+	.slider-cert > div > img{
 		width: 384px;
 		height: 288px;
 	}

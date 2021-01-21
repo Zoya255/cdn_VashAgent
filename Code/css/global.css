@@ -124,7 +124,7 @@
 
 	color: #ffffff;
 }
-.global__section-main-panel-text-rieltor{
+.global__section-main-panel-text-realtor{
 	margin-top: 150px;
 
 	font-size: 1.5em;
@@ -471,10 +471,10 @@
 	background-color: #6fb8be;
 	box-shadow: none;
 }
-.global__section-forms-form-whatup{
+.global__section-forms-form-whatsapp{
 	text-align: center;
 }
-.global__section-forms-form-whatup-text{
+.global__section-forms-form-whatsapp-text{
 	margin-top: 1.5em;
 
 	font-family: Roboto, sans-serif;
@@ -483,7 +483,7 @@
 	
 	color: #ffffff;
 }
-.global__section-forms-form-whatup-button{
+.global__section-forms-form-whatsapp-button{
 	padding: 10px 35px;
 
 	font-family: Roboto, sans-serif;
@@ -498,12 +498,12 @@
 	color: #ffffff;
 	background-color: #0dc143;
 }
-.global__section-forms-form-whatup-button:hover{
+.global__section-forms-form-whatsapp-button:hover{
 	box-shadow: 0 0 13px #0bbc4a;
 	border-radius: 10px;
 	background-color: #0dc143;
 }
-.global__section-forms-form-whatup-button:active{
+.global__section-forms-form-whatsapp-button:active{
 	background-color: #0dc143;
 	box-shadow: none;
 }
@@ -677,7 +677,7 @@
 	color: #ffffff;
 	background-color: #6fb8be;
 }
-.global__section-feedback-footer-link-whatup{
+.global__section-feedback-footer-link-whatsapp{
 	display: inline-block;
 
 	margin-left: 1.5rem;
@@ -730,7 +730,7 @@
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
-	line-height: 13.7px;
+	line-height: 14px;
 	text-align: center;
 }
 
