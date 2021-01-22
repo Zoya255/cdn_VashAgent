@@ -141,7 +141,7 @@
 	background-color: #cee002;
 }
 .global__section-main-photo{
-	background-image: url(../img/main.jpg);
+	background-image: url(../img/src/main.jpg);
 	background-size: cover;
 }
 
@@ -217,7 +217,7 @@
 .global__section-services{
 	position: relative;
 
-	background-image: url(../img/services.jpg);
+	background-image: url(../img/src/services.jpg);
 }
 .global__section-services-micro-text{
 	color: #000000;
@@ -395,7 +395,7 @@
 /* -------------------- section forms -------------------- */
 
 .global__section-forms{
-	background-image: url(../img/table.jpg);
+	background-image: url(../img/src/table.jpg);
 	width: 100%;
 }
 .global__section-forms-form-wrapper{
@@ -458,6 +458,16 @@
 
 	color: #ffffff;
 	background-color: #6fb8be;
+}
+.global__section-forms-form-label{
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
 .global__section-forms-form-button:hover{
 	padding: 10px 18px;
