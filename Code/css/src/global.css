@@ -141,7 +141,7 @@
 	background-color: #cee002;
 }
 .global__section-main-photo{
-	background-image: url(../../img/src/main.jpg);
+	background-image: url(../../img/min/main.jpeg);
 	background-size: cover;
 }
 
@@ -217,7 +217,7 @@
 .global__section-services{
 	position: relative;
 
-	background-image: url(../../img/src/services.jpg);
+	background-image: url(../../img/min/services.jpeg);
 }
 .global__section-services-micro-text{
 	color: #000000;
@@ -395,7 +395,7 @@
 /* -------------------- section forms -------------------- */
 
 .global__section-forms{
-	background-image: url(../../img/src/table.jpg);
+	background-image: url(../../img/min/table.jpeg);
 	width: 100%;
 }
 .global__section-forms-form-wrapper{
