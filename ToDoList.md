@@ -208,3 +208,21 @@
 - replace main image
 - optimization images
 - final fixes
+
+
+## 21.01.2020
+
+*Sergo*
+
+- optimizations
+- updgrade speed
+- minification
+
+
+## 22.01.2020
+
+*Sergo*
+
+- optimizations
+- updgrade speed
+- minification
