@@ -1,0 +1,5 @@
+# For all user agents
+User-agent: *
+Disallow: /module_easy-spy/
+Disallow: /webstat/
+Sitemap: http://vash-agent27.ru/sitemap.xml
