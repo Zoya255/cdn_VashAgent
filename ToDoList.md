@@ -226,3 +226,10 @@
 - optimizations
 - updgrade speed
 - minification
+
+
+## 02.02.2021
+
+*Sergo*
+
+- update module EasySpy to V7
